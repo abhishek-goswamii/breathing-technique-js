@@ -1,0 +1,74 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FAF8F1;
+}
+
+.title {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title p {
+  font-size: 5rem;
+  font-weight: 500;
+  color: #da9b35;
+}
+
+.pb {
+  height: 40%;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pb div {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(149, 218, 149);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pb div p {
+  color: black;
+  font-weight: 600;
+  font-size: 6rem;
+}
+
+.start {
+  height: 10%;
+  width: 22rem;
+  display: flex;
+  background-color: #FAEAB1;
+  justify-content: center;
+  align-items: center;
+}
+.start button {
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  border-style: none;
+  color: #bf853e;
+  background-color: #FAEAB1;
+}
+
+.description {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description p {
+  font-size: 1.2rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
